@@ -1,0 +1,9 @@
+.menu {
+  color: blue;
+  background: black;
+}
+[href="http://google.com"]
+{
+  color: black;
+  text-decoration: line-through;
+}
