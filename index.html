@@ -4,47 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>resume</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- main container-->
-    <div>
-      <aside>
-        <img src="./img/my_photo.jpg" alt="my foto" />
+    <div class="wrapper">
+      <aside class="sidebar">
+        <img class="my-photo" src="./img/my_photo.jpg" alt="my foto" />
 
         <!--contacts-->
-        <div>
-          <h3>Contacts</h3>
-          <div>C: <a href="tell:380935825430">+38 093 58 25 430</a></div>
-          <div>E: <a href="mailto:holivets@ukr.net">Holivets@ukr.net</a></div>
+        <div class="sidebar-paragraph">
+          <h3 class="sidebar-title">Contacts</h3>
+          <div>
+            <span class="C_E">C:</span>
+            <a class="contacts-link" href="tell:380935825430"
+              >+38 093 58 25 430</a
+            >
+          </div>
+          <div>
+            <span class="C_E">E:</span>
+            <a class="contacts-link" href="mailto:holivets@ukr.net"
+              >Holivets@ukr.net</a
+            >
+          </div>
         </div>
 
         <!--tskills-->
-        <div>
-          <h3>Tech Skills</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>WebPack</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
+        <div class="sidebar-paragraph">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="sidebar-info">
+            <li><span class="sidebar-text">HTML5</span></li>
+            <li><span class="sidebar-text">CSS3</span></li>
+            <li><span class="sidebar-text">GIT</span></li>
+            <li><span class="sidebar-text">WebPack</span></li>
+            <li><span class="sidebar-text">JavaScript</span></li>
+            <li><span class="sidebar-text">React.js</span></li>
+            <li><span class="sidebar-text">Node.js</span></li>
           </ul>
         </div>
 
         <!--sskills-->
-        <div>
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>GTD</li>
-            <li>Teamwork</li>
+        <div class="sidebar-paragraph">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="sidebar-info">
+            <li><span class="sidebar-text">Scrum</span></li>
+            <li><span class="sidebar-text">Agile</span></li>
+            <li><span class="sidebar-text">GTD</span></li>
+            <li><span class="sidebar-text">Teamwork</span></li>
           </ul>
         </div>
       </aside>
       <!-- about me container-->
-      <div>
+      <div class="about-me">
         <!-- about me main info-->
         <div>
           <h2>Front-End Developer</h2>

@@ -1,9 +1,61 @@
-.menu {
-  color: green;
-  background: black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-[href="http://google.com"]
-{
-  color: black;
-  text-decoration: line-through;
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f5f7fa;
+  padding: 20px;
+}
+.wrapper {
+  background: #fff;
+  display: flex;
+}
+.sidebar {
+  background: #1e2939;
+  width: 370px;
+}
+.my-photo {
+  width: 370px;
+  margin-top: 40px;
+}
+.about-me {
+  padding-left: 88px;
+  padding-top: 108px;
+  padding-right: 196px;
+  padding-bottom: 107px;
+}
+.sidebar-paragraph {
+  margin-left: 40px;
+  margin-top: 55px;
+}
+.sidebar-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #828891;
+}
+.C_E {
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.sidebar-info {
+  color: #d15e12;
+  margin-left: 15px;
+}
+.sidebar-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
 }
