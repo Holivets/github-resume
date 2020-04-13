@@ -6,11 +6,17 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: #f5f7fa;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .wrapper {
   background: #fff;
   display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 .sidebar {
   background: #1e2939;
@@ -21,9 +27,9 @@ body {
   margin-top: 40px;
 }
 .about-me {
-  padding-left: 88px;
+  padding-left: 90px;
   padding-top: 108px;
-  padding-right: 196px;
+  padding-right: 90px;
   padding-bottom: 107px;
 }
 .sidebar-paragraph {
@@ -58,4 +64,83 @@ body {
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
+}
+.profession {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+.description {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 14px;
+  padding-right: 160px;
+}
+.projects-block {
+  margin-top: 64px;
+  margin-bottom: 52px;
+}
+.myinfo-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.project-links {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.dots {
+  color: #bebebe;
+  font-weight: 100;
+}
+.project-items {
+  margin-left: 18px;
+  font-weight: 700;
+}
+.profession-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+.company-profession {
+  color: #ff6b08;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+.profession-time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a8a8a8;
+}
+.profession-divider {
+  color: #000;
+}
+.profession-duties {
+  margin-top: 14px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+  padding-right: 100px;
+}
+.education {
+  margin-top: 56px;
 }
